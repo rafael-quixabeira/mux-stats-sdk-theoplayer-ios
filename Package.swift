@@ -1,10 +1,10 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 5.9
 
 import PackageDescription
 
 let package = Package(
     name: "Mux-Stats-THEOplayer",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v11), .visionOS(.v1)],
     products: [
         .library(
             name: "MuxStatsTHEOplayer",
